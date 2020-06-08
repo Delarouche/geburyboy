@@ -1,6 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
+@font-face {
+	font-family: Jojo;
+	src: url(jojo.ttf);
+  }
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -1318,12 +1321,16 @@ input, select, textarea {
 				-moz-transition-delay: 0.25s;
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
+				
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
+				
 			}
-
+			#header .content .inner h1 {font-family: Jojo;
+				color: rgb(240, 14, 183);
+			}
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
 				}
@@ -1638,8 +1645,9 @@ input, select, textarea {
 
 		#footer .copyright {
 			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
-			opacity: 0.75;
+			font-size: 2.5rem;
+			color: rgb(247, 101, 4);
+			opacity: 1;
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
